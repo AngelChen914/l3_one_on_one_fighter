@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="script.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>One on One Fighter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body onload="initialize();">
+  <a href="index.html">Play Game</a>
+  <div class="grid-container">
+    <div class="header">Two fighters go in. Only one comes out...</div>
+    <div class="main">
+        Each player chooses to either attack, defend, or attempt a finishing move.
+        Each attack and defend value is determined by speed, strength, cunning, and random numbers.
+        The attack value is compared to the defense value. If attack is greater than defense,
+        fatigue is reduced by the difference. If one player defends and doesn't take damage,
+        they get fatigue points back, but fatigue points will never go over their original fatigue.
+        If both players defend, both get a random number of fatigue points back. A finishing move is
+        only available when one player's fatigue is double the other's or if a fighter's fatigue
+        is below zero. Get ready to play!
+    </div>
+  </div>
+</body>
+
+</html>

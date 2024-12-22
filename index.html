@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="script.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>One on One Fighter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body onload="initialize();">
+  <a href="instructions.html">Instructions</a>
+  <div class="fighterOne">
+    <h4>Fighter User Stats </h4>
+    <div id="strength1"></div>
+    <div id="cunning1"></div>
+    <div id="speed1"></div>
+    <div id="fatigue1"></div>
+    <h4>Log</h4>
+    <div id="log1"></div>
+  </div>
+
+  <div class="fighterTwo">
+    <h4>Fighter Computer Stats </h4>
+    <div id="strength2"></div>
+    <div id="cunning2"></div>
+    <div id="speed2"></div>
+    <div id="fatigue2"></div>
+    <h4>Log</h4>
+    <div id="log2"></div>
+  </div>
+
+  <div class="buttons">
+    <button id="attack" onclick="fighterOneMoves('Attack');">Attack</button>
+    <button id="defend" onclick="fighterOneMoves('Defend');">Defend</button>
+    <button id="finishingMove" onclick="fighterOneMoves('Finshing');">Finishing Move</button>
+  </div>
+  <img id="user" src="1_on_1_fighter_user.png">;
+  <img id="computer" src="1_on_1_fighter_computer.png">
+  <h1 id="final"></h1>
+
+  <div class="restart">
+    <button id="restart"></button>
+  </div>
+
+</body>
+
+</html>
